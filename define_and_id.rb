@@ -9,19 +9,22 @@
 
 # YOU DO the rest:
 
-
-"Hello World".include?("Hello")
-
-
-"Hello World".end_with?("Hello")
-
-
-"Hello World".end_with?("rld")
+#The .include method is being called on the string object "hello world".
+#The .include method necesitates a perameter which in this case is "hello".
+#So basically the .include method is asking does the aforementioned string(in this case) include what ever the perameter is; in this case, the string "Hello".
+#The reurn value is true.
+puts "Hello World".include?("Hello")
 
 
-12.even?
+puts "Hello World".end_with?("Hello")
 
 
-18.next
+puts "Hello World".end_with?("rld")
+
+
+puts 12.even?
+
+
+puts 18.next
 
 
