@@ -21,6 +21,9 @@ puts "Hello World".include?("Hello")
 #The return value is false.
 puts "Hello World".end_with?("Hello")
 
+#The .end_with method is being called on the string object "hello world".
+#The .end_with method necesitates a perameter which in this case is "rld".
+#This method will check to see if the called upon string contains ends with what ever the perameter set forth is; in this case "rld".
 #the return value is true.
 puts "Hello World".end_with?("rld")
 
