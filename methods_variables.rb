@@ -2,12 +2,15 @@
 # PART 1
 
 # Define a variable that stores a string
-
+name = "alec"
 #  call upcase on the variable, print it out
+puts name.upcase!
 #  call downcase on the variable, print it out
+puts name.downcase!
 #  call reverse on the variable, print it out
+puts name.reverse
 #  call length on the variable, print it out
-
+puts name.length
 
 
 
