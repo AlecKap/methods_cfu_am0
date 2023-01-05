@@ -14,15 +14,14 @@ puts greeting
 # I passed 0 arguments.
 
 
+
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
-name = "Alec"
 
 def custom_greeting(name)
     "Well hello there, #{name}!"
 end
 
-puts custom_greeting
-
+puts custom_greeting("Alec")
 
 # What is the return value of your method?
 # "Well hello there, Alec"
@@ -37,11 +36,22 @@ puts custom_greeting
 
 #3: Write a method named square that takes in one number, and returns the square of that number
 
+def square(num)
+    Math.sqrt(num)
+end
+
+puts square(64)
+
 
 
 # What is the return value of your method?
+# 8
+
 # How many arguments did you pass your method?
+# 1
+
 # What data type was your argument(s)?
+# Integer
 
 
 
