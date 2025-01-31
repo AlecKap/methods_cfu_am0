@@ -6,3 +6,4 @@
     - Again, i think that i am getting the concepts, just need to keep practicing.
 - What questions do you have about methods, and what they are capable of? (ask a question!!!)
     - Can one create large complex methods and employ them throughout large projects to basically consolidate work flow and be more ?
+    i love mod 0
